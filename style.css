@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+#user {
+  background-color: white;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  cursor: pointer;
+}
+body {
+  background: linear-gradient(45deg, rgb(2, 2, 128), rgb(131, 1, 1));
+  font-family: system-ui;
+}
+#post {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+#user.selected {
+  border: 6px solid #ff6200;
+}
